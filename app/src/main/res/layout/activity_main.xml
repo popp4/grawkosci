@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5DC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Gra w kości. Autor: Piotr Stankiewicz"
+        android:background="#A52A2A"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/rzuc"
+        android:layout_width="330dp"
+        android:layout_height="43dp"
+        android:text="RZUĆ KOŚĆMI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="94dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#F5F5DC"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/kostka1"
+            android:layout_width="54dp"
+            android:layout_gravity="center"
+            android:layout_height="46dp"
+            android:text="?"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="320dp"
+            tools:layout_editor_absoluteY="163dp" />
+
+        <TextView
+            android:id="@+id/kostka2"
+            android:layout_width="54dp"
+            android:layout_gravity="center"
+            android:layout_height="46dp"
+            android:text="?"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="163dp" />
+
+        <TextView
+            android:id="@+id/kostka3"
+            android:layout_gravity="center"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:text="?"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="178dp"
+            tools:layout_editor_absoluteY="163dp" />
+
+        <TextView
+            android:id="@+id/kostka4"
+            android:layout_gravity="center"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:text="?"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="163dp" />
+
+
+        <TextView
+            android:id="@+id/kostka5"
+            android:layout_gravity="center"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:text="?"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="163dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik tego losowania: "
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/liczba_rzutow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liczba rzutów: "
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/wynik_gry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik gry: "
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/resetuj"
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:layout_height="43dp"
+        android:text="RESETUJ WYNIK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="341dp" />
+
+</LinearLayout>
