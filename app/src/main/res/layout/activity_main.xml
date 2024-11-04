@@ -36,7 +36,8 @@
         app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="94dp"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        app:cornerRadius="0dp" />
 
     <LinearLayout
         android:id="@+id/main"
@@ -137,6 +138,7 @@
         android:text="RESETUJ WYNIK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteY="341dp"
+        app:cornerRadius="0dp" />
 
 </LinearLayout>
